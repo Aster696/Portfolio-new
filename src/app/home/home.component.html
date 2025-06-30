@@ -1,33 +1,33 @@
 <nav id="desktop-nav">
     <div class="logo">Aster Rebeiro</div>
     <div>
-      <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
     </div>
-  </nav>
-  <nav id="hamburger-nav">
+</nav>
+<nav id="hamburger-nav">
     <div class="logo">Aster Rebeiro</div>
     <div class="hamburger-menu">
-      <div (click)="toggleMenu()" class="hamburger-icon" [ngClass]="is_open ? 'open' : ''">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-      <div *ngIf="is_open" [ngClass]="is_open ? 'open' : ''" class="menu-links">
-        <li><a href="#about" (click)="toggleMenu()">About</a></li>
-        <li><a href="#skills" (click)="toggleMenu()">Skills</a></li>
-        <li><a href="#projects" (click)="toggleMenu()">Projects</a></li>
-        <li><a href="#contact" (click)="toggleMenu()">Contact</a></li>
-      </div>
+        <div (click)="toggleMenu()" class="hamburger-icon" [ngClass]="is_open ? 'open' : ''">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div *ngIf="is_open" [ngClass]="is_open ? 'open' : ''" class="menu-links">
+            <li><a href="#about" (click)="toggleMenu()">About</a></li>
+            <li><a href="#skills" (click)="toggleMenu()">Skills</a></li>
+            <li><a href="#projects" (click)="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" (click)="toggleMenu()">Contact</a></li>
+        </div>
     </div>
-  </nav>
-  <section id="profile">
+</nav>
+<section id="profile">
     <div class="section__pic-container">
-      <img src="assets/images/my.jpg" alt="Aster Rebeiro profile picture" />
+        <img src="assets/images/my.jpg" alt="Aster Rebeiro profile picture" />
     </div>
     <div class="section__text">
       <p class="section__text__p1">Hello, I'm</p>
@@ -53,417 +53,320 @@
         </a>
       </div>
     </div>
-  </section>
-  <section id="about">
+</section>
+<section id="about">
     <p class="section__text__p1">Get To Know More</p>
     <h1 class="title">About Me</h1>
     <div class="section-container">
-      <div class="about-details-container">
-        <div class="about-containers">
-          <div class="details-container">
-            <i class="fa fa-certificate icon"></i>
-            <h3>Experience</h3>
-            <p>2+ years <br />Angular Development at Codezen Tech Solutions, March 2023 - Present</p>
-            <p>
-              Worked as a Front-end developer on a client web application utilizing Angular
-                Framework.
-            </p>
-            <p>
-              Fixed major and minor bugs on the website in accordance with the need.
-            </p>
-            <p>
-              Integrated API’s and other multiple functionalities in the project and update as
-                required.
-            </p>
-            <p>
-              Maintained the status of the project, Code review of team, Taking status update
-                of task from team.
-            </p>
-            <p>
-              Communicated with other departmental teams to ensure a proper understanding
-                of functionalities. 
-            </p>
-          </div>
-          <div class="details-container">
-            <i class="fa fa-university icon"></i>
-            <h3>Education/Certificates</h3>
-            <br />
-            <p>
-              <strong>SSC</strong>, Secondary School Certificate from Holy Family High School
-            </p>
-            <br />
-            <p>
-              <strong>B.Com</strong>, Bachelors Degree from S.P.D.T College
-            </p>
-            <br />
-            <p>
-              <strong>NIIT</strong>, Full Stack Development Course 
-            </p>
-            <br />
-            <p>
-              <strong>Anudip</strong>, English Communication and Digital Education with Excel Specialization
-            </p>
-          </div>
+        <div class="about-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <i class="fa fa-certificate icon"></i>
+                    <h3>Experience</h3>
+                    <p>2+ years <br />Angular Development at Codezen Tech Solutions, March 2023 - Present</p>
+                    <p>
+                        Worked as a Front-end developer on a client web application utilizing Angular
+                        Framework.
+                    </p>
+                    <p>
+                        Fixed major and minor bugs on the website in accordance with the need.
+                    </p>
+                    <p>
+                        Integrated API’s and other multiple functionalities in the project and update as
+                        required.
+                    </p>
+                    <p>
+                        Maintained the status of the project, Code review of team, Taking status update
+                        of task from team.
+                    </p>
+                    <p>
+                        Communicated with other departmental teams to ensure a proper understanding
+                        of functionalities.
+                    </p>
+                </div>
+                <div class="details-container">
+                    <i class="fa fa-university icon"></i>
+                    <h3>Education/Certificates</h3>
+                    <br />
+                    <p>
+                        <strong>SSC</strong>, Secondary School Certificate from Holy Family High School
+                    </p>
+                    <br />
+                    <p>
+                        <strong>B.Com</strong>, Bachelors Degree from S.P.D.T College
+                    </p>
+                    <br />
+                    <p>
+                        <strong>NIIT</strong>, Full Stack Development Course
+                    </p>
+                    <br />
+                    <p>
+                        <strong>Anudip</strong>, English Communication and Digital Education with Excel Specialization
+                    </p>
+                </div>
+            </div>
+            <div class="text-container">
+                <p>
+                    Motivated Software Engineer with experience in Angular Development. Possesses good
+                    analytical and problem-solving skills, with experience in identifying and resolving technical
+                    issues. Passionate about software development and continuously learning new
+                    technologies to improve the software development process.
+                </p>
+                <br />
+                <h3>Career Objective</h3>
+                <p>
+                    Aiming to leverage acquired academic knowledge and proven creative thinking,
+                    management and team work. I can be relied upon to help your company to achieve its
+                    goal.
+                </p>
+            </div>
         </div>
-        <div class="text-container">
-          <p>
-            Motivated Software Engineer with experience in Angular Development. Possesses good
-            analytical and problem-solving skills, with experience in identifying and resolving technical
-            issues. Passionate about software development and continuously learning new
-            technologies to improve the software development process.
-          </p>
-          <br />
-          <h3>Career Objective</h3>
-          <p>
-            Aiming to leverage acquired academic knowledge and proven creative thinking,
-            management and team work. I can be relied upon to help your company to achieve its
-            goal.
-          </p>
-        </div>
-      </div>
     </div>
-  </section>
-  <section id="skills">
+</section>
+<section id="skills">
     <p class="section__text__p1">Explore My</p>
     <h1 class="title">Skills</h1>
     <div class="experience-details-container">
-      <div class="about-containers">
-        <div class="details-container">
-          <h2 class="experience-sub-title">Frontend Development</h2>
-          <div class="article-container">
-            <article>
-              <img
-                src="./assets/checkmark.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <div>
-                <h3>HTML</h3>
-                <p>Experienced</p>
-              </div>
-            </article>
-            <article>
-              <img
-                src="./assets/checkmark.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <div>
-                <h3>CSS</h3>
-                <p>Experienced</p>
-              </div>
-            </article>
-            <article>
-              <img
-                src="./assets/checkmark.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <div>
-                <h3>SASS</h3>
-                <p>Intermediate</p>
-              </div>
-            </article>
-            <article>
-              <img
-                src="./assets/checkmark.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <div>
-                <h3>BootStrap</h3>
-                <p>Experienced</p>
-              </div>
-            </article>
-            <article>
-              <img
-                src="./assets/checkmark.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <div>
-                <h3>Angular</h3>
-                <p>Intermediate</p>
-              </div>
-            </article>
-            <article>
-              <img
-                src="./assets/checkmark.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <div>
-                <h3>React</h3>
-                <p>Basic</p>
-              </div>
-            </article>
-            <article>
-              <img
-                src="./assets/checkmark.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <div>
-                <h3>JavaScript</h3>
-                <p>Intermediate</p>
-              </div>
-            </article>
-            <article>
-              <img
-                src="./assets/checkmark.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <div>
-                <h3>TypeScript</h3>
-                <p>Intermediate</p>
-              </div>
-            </article>
-            <article>
-              <img
-                src="./assets/checkmark.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <div>
-                <h3>Material UI</h3>
-                <p>Intermediate</p>
-              </div>
-            </article>
-          </div>
+        <div class="about-containers">
+            <div class="details-container">
+                <h2 class="experience-sub-title">Frontend Development</h2>
+                <div class="article-container">
+                    <article>
+                        <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>HTML</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>CSS</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>SASS</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>BootStrap</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>Angular</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>React</h3>
+                            <p>Basic</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>JavaScript</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>TypeScript</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>Material UI</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="details-container">
+                <h2 class="experience-sub-title">Backend Development</h2>
+                <div class="article-container">
+                    <article>
+                        <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>MongoDB</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>MySQL</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>Node JS</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>Spring Boot</h3>
+                            <p>Basic</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>Hibernate</h3>
+                            <p>Basic</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>Java</h3>
+                            <p>Basic</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>C++</h3>
+                            <p>Basic</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>Git</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
         </div>
-        <div class="details-container">
-          <h2 class="experience-sub-title">Backend Development</h2>
-          <div class="article-container">
-            <article>
-              <img
-                src="./assets/checkmark.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <div>
-                <h3>MongoDB</h3>
-                <p>Intermediate</p>
-              </div>
-            </article>
-            <article>
-              <img
-                src="./assets/checkmark.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <div>
-                <h3>MySQL</h3>
-                <p>Intermediate</p>
-              </div>
-            </article>
-            <article>
-              <img
-                src="./assets/checkmark.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <div>
-                <h3>Node JS</h3>
-                <p>Intermediate</p>
-              </div>
-            </article>
-            <article>
-              <img
-                src="./assets/checkmark.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <div>
-                <h3>Spring Boot</h3>
-                <p>Basic</p>
-              </div>
-            </article>
-            <article>
-              <img
-                src="./assets/checkmark.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <div>
-                <h3>Hibernate</h3>
-                <p>Basic</p>
-              </div>
-            </article>
-            <article>
-              <img
-                src="./assets/checkmark.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <div>
-                <h3>Java</h3>
-                <p>Basic</p>
-              </div>
-            </article>
-            <article>
-              <img
-                src="./assets/checkmark.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <div>
-                <h3>C++</h3>
-                <p>Basic</p>
-              </div>
-            </article>
-            <article>
-              <img
-                src="./assets/checkmark.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <div>
-                <h3>Git</h3>
-                <p>Intermediate</p>
-              </div>
-            </article>
-          </div>
-        </div>
-      </div>
     </div>
-  </section>
-  <section id="projects">
+</section>
+<section id="projects">
     <p class="section__text__p1">Browse My Recent</p>
     <h1 class="title">Projects</h1>
     <div class="experience-details-container">
-      <div class="about-containers">
-        <div class="details-container color-container">
-          <div class="article-container">
-            <img
-              src="./assets/projects/graeon.jpg"
-              alt="Graeon.AI"
-              class="project-img"
-            />
-          </div>
-          <h2 class="experience-sub-title project-title">Graeon.AI</h2>
-          <p>
-            This is my current company project that I have been working on. 
-            Developed a comprehensive ERP web application aimed at streamlining business
-            processes and enhancing organizational efficiency.  
-            Integrated various modules including inventory management, payroll, customer
-            relationship management (CRM), etc to provide a centralized platform for managing
-            enterprise resources. 
-            Utilized RESTful APIs to facilitate communication between frontend and backend systems,
-            ensuring real-time data synchronization and accuracy.
-          </p>
-          <div class="btn-container">
-            <button
-              class="btn btn-color-2 project-btn"
-              (click)="openInNewTab('https://graeon.ai/')"
-            >
-              Live Demo
-            </button>
-          </div>
+        <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/projects/graeon.jpg" alt="Graeon.AI" class="project-img" />
+                </div>
+                <h2 class="experience-sub-title project-title">Graeon.AI</h2>
+                <p>
+                    This is my current company project that I have been working on.
+                    Developed a comprehensive ERP web application aimed at streamlining business
+                    processes and enhancing organizational efficiency.
+                    Integrated various modules including inventory management, payroll, customer
+                    relationship management (CRM), etc to provide a centralized platform for managing
+                    enterprise resources.
+                    Utilized RESTful APIs to facilitate communication between frontend and backend systems,
+                    ensuring real-time data synchronization and accuracy.
+                </p>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" (click)="openInNewTab('https://graeon.ai/')">
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/projects/TaskManagerLogo.jpeg" alt="Taskers" class="project-img" />
+                </div>
+                <h2 class="experience-sub-title project-title">Taskers</h2>
+                <p>
+                    This is a personal project I developed it long time ago. It’s a task management web application that
+                    allows users to add daily tasks and schedule them with specific dates and times. It is also mobile
+                    responsive.
+                </p>
+                <strong>Key features include:</strong>
+                <p>
+                    User authentication (sign up, login, logout).
+                    Task creation with date and time scheduling. Email notifications for upcoming tasks
+                </p>
+                <strong>Tech Stack:</strong>
+                <p>
+                    Frontend: Angular, Angular Material. Backend: Node.js. Database: MongoDB.
+                </p>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn"
+                        (click)="openInNewTab('https://github.com/Aster696/TaskManagerClient/tree/version_1.2.1')">
+                        Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn"
+                        (click)="openInNewTab('https://a7-task-manager.netlify.app/home')">
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/projects/energyviss.png" alt="Energyviss-Dashboard" class="project-img" />
+                </div>
+                <h2 class="experience-sub-title project-title">Energyviss-Dashboard</h2>
+                <p>
+                    This is also my personal project.
+                    This is just simple project which randomly updates dashboard values for guage and chart.
+                </p>
+                <strong>Tech Stack:</strong>
+                <p>
+                    Frontend: Angular, Angular Material, Google Icons
+                </p>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn"
+                        (click)="openInNewTab('https://github.com/Aster696/EnergyvissDashboard-Angular-')">
+                        Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn"
+                        (click)="openInNewTab('https://energyviss-dashboard.netlify.app/')">
+                        Live Demo
+                    </button>
+                </div>
+            </div>
         </div>
-        <div class="details-container color-container">
-          <div class="article-container">
-            <img
-              src="./assets/projects/TaskManagerLogo.jpeg"
-              alt="Taskers"
-              class="project-img"
-            />
-          </div>
-          <h2 class="experience-sub-title project-title">Taskers</h2>
-          <p>
-            This is a personal project I developed some time ago. It’s a task management web application that allows users to add daily tasks and schedule them with specific dates and times. It is also mobile responsive.
-          </p>
-          <strong>Key features include:</strong>
-          <p>
-            User authentication (sign up, login, logout). 
-            Task creation with date and time scheduling. Email notifications for upcoming tasks
-          </p>
-          <strong>Tech Stack:</strong>
-          <p>
-            Frontend: Angular, Angular Material. Backend: Node.js. Database: MongoDB.
-          </p>
-          <div class="btn-container">
-            <button
-              class="btn btn-color-2 project-btn"
-              (click)="openInNewTab('https://github.com/Aster696/TaskManagerClient/tree/version_1.2.1')"
-            >
-              Github
-            </button>
-            <button
-              class="btn btn-color-2 project-btn"
-              (click)="openInNewTab('https://a7-task-manager.netlify.app/home')"
-            >
-              Live Demo
-            </button>
-          </div>
-        </div>
-        <div class="details-container color-container">
-          <div class="article-container">
-            <img
-              src="./assets/projects/energyviss.png"
-              alt="Energyviss-Dashboard"
-              class="project-img"
-            />
-          </div>
-          <h2 class="experience-sub-title project-title">Energyviss-Dashboard</h2>
-          <p>
-            This is also my personal project. 
-            This is just simple project which randomly updates dashboard values for guage and chart.
-          </p>
-          <strong>Tech Stack:</strong>
-          <p>
-            Frontend: Angular, Angular Material, Google Icons
-          </p>
-          <div class="btn-container">
-            <button
-              class="btn btn-color-2 project-btn"
-              (click)="openInNewTab('https://github.com/Aster696/EnergyvissDashboard-Angular-')"
-            >
-              Github
-            </button>
-            <button
-              class="btn btn-color-2 project-btn"
-              (click)="openInNewTab('https://energyviss-dashboard.netlify.app/')"
-            >
-              Live Demo
-            </button>
-          </div>
-        </div>
-      </div>
     </div>
-  </section>
-  <section id="contact">
+</section>
+<section id="contact">
     <p class="section__text__p1">Get in Touch</p>
     <h1 class="title">Contact Me</h1>
     <div class="contact-info-upper-container">
-      <div class="contact-info-container">
-        <img
-          src="./assets/email.png"
-          alt="Email icon"
-          class="icon contact-icon email-icon"
-        />
-        <p><a href="mailto:asterrebeiro69@gmail.com">asterrebeiro69@gmail.com</a></p>
-      </div>
-      <div class="contact-info-container">
-        <img
-          src="./assets/linkedin.png"
-          alt="LinkedIn icon"
-          class="icon contact-icon"
-        />
-        <p><a href="https://www.linkedin.com/in/aster-rebeiro-308125206" target="_blank">LinkedIn</a></p>
-      </div>
+        <div class="contact-info-container">
+            <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+            <p><a href="mailto:asterrebeiro69@gmail.com">asterrebeiro69@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+            <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+            <p><a href="https://www.linkedin.com/in/aster-rebeiro-308125206" target="_blank">LinkedIn</a></p>
+        </div>
     </div>
-  </section>
-  <footer>
+</section>
+<footer>
     <nav>
-      <div class="nav-links-container">
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
+        <div class="nav-links-container">
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
     </nav>
     <p>Copyright &#169; 2023 Aster Rebeiro. All Rights Reserved.</p>
-  </footer>
+</footer>
